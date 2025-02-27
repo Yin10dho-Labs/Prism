@@ -1,9 +1,0 @@
-Manufacturer=Microchip
-PartNumber=DSC1121CE5-050.0000
-PartCategory=Crystal or Oscillator
-PackageCategory=Other
-PinCount=6
-Version=2.3
-Released=2021-01-29 12:51:31
-Downloaded=2025-02-19 17:30:57
-3D=Y
