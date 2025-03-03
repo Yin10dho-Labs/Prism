@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../fpga_design.gen/sources_1/ip/singlePortBlock18/sim/singlePortBlock18.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

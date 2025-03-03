@@ -1,0 +1,219 @@
+/*
+
+AMD Vivado v2024.2 (64-bit) [Major: 2024, Minor: 2]
+SW Build: 5239630 on Fri Nov 08 22:34:34 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+IP Build: 5239520 on Sun Nov 10 16:12:51 MST 2024
+
+Process ID (PID): 3217
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Feb 25 00:41:47 IST 2025
+Time zone: 	India Standard Time (Asia/Kolkata)
+
+OS: Ubuntu
+OS Version: 6.8.0-52-generic
+OS Architecture: amd64
+Available processors (cores): 8
+LSB Release Description: DISTRIB_ID=Ubuntu
+
+Display: 0
+Screen size: 1920x1080
+Local screen bounds: x = 70, y = 27, width = 1850, height = 1053
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+Anti-Alias Enabled: false
+
+Java version: 	21.0.1 64-bit
+
+Java home: 	/home/mihir/xilinx/Vivado/2024.2/tps/lnx64/jre21.0.1_12
+Java executable: 	/home/mihir/xilinx/Vivado/2024.2/tps/lnx64/jre21.0.1_12/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:ParallelGCThreads=4, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	mihir
+User home directory: /home/mihir
+User working directory: /home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/mihir/xilinx/Vivado
+HDI_APPROOT: /home/mihir/xilinx/Vivado/2024.2
+RDI_DATADIR: /home/mihir/xilinx/Vivado/2024.2/data
+RDI_BINDIR: /home/mihir/xilinx/Vivado/2024.2/bin
+
+Vivado preferences file: /home/mihir/.Xilinx/Vivado/2024.2/vivado.xml
+Vivado preferences directory: /home/mihir/.Xilinx/Vivado/2024.2/
+Vivado layouts directory: /home/mihir/.Xilinx/Vivado/2024.2/data/layouts
+PlanAhead jar file: 	/home/mihir/xilinx/Vivado/2024.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/vivado.log
+Vivado journal file: 	/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-3217-engineering-laptop
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+GNOME_SHELL_SESSION_MODE: ubuntu
+RDI_APPROOT: /home/mihir/xilinx/Vivado/2024.2
+RDI_BASEROOT: /home/mihir/xilinx/Vivado
+RDI_BINROOT: /home/mihir/xilinx/Vivado/2024.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /home/mihir/xilinx/Vivado/2024.2/data
+RDI_INSTALLROOT: /home/mihir/xilinx
+RDI_INSTALLVER: 2024.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 21.0.1_12
+RDI_LIBDIR: /home/mihir/xilinx/Vivado/2024.2/lib/lnx64.o/Ubuntu/22:/home/mihir/xilinx/Vivado/2024.2/lib/lnx64.o/Ubuntu:/home/mihir/xilinx/Vivado/2024.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /home/mihir/xilinx/Vitis/2024.2/bin:/home/mihir/xilinx/Vivado/2024.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /home/mihir/xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new:engineering-laptop_1740424288_3176
+RDI_SHARED_DATA: /home/mihir/xilinx/SharedData/2024.2/data
+RDI_TPS_ROOT: /home/mihir/xilinx/Vivado/2024.2/tps/lnx64
+RDI_USE_JDK21: True
+SHELL: /bin/bash
+XILINX: /home/mihir/xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_DSP: /home/mihir/xilinx/Vivado/2024.2/ids_lite/ISE
+XILINX_HLS: /home/mihir/xilinx/Vitis/2024.2
+XILINX_PLANAHEAD: /home/mihir/xilinx/Vivado/2024.2
+XILINX_SDK: /home/mihir/xilinx/Vitis/2024.2
+XILINX_VITIS: /home/mihir/xilinx/Vitis/2024.2
+XILINX_VIVADO: /home/mihir/xilinx/Vivado/2024.2
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,466 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Opening Vivado Project: /home/mihir/Prism/hardware/fpga_design/fpga_design.xpr. Version: Vivado v2024.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project /home/mihir/Prism/hardware/fpga_design/fpga_design.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 97 MB (+98818kb) [00:00:12]
+// [Engine Memory]: 1,497 MB (+1418082kb) [00:00:12]
+// [GUI Memory]: 111 MB (+10241kb) [00:00:13]
+// [Engine Memory]: 1,622 MB (+53169kb) [00:00:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  2332 ms.
+// Tcl Message: open_project /home/mihir/Prism/hardware/fpga_design/fpga_design.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/mihir/Prism/hardware/fpga_design/fpga_design.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/mihir/xilinx/Vivado/2024.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,637 MB. GUI used memory: 71 MB. Current time: 2/25/25, 12:41:50 AM IST
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 7760.551 ; gain = 276.523 ; free physical = 10765 ; free virtual = 30785 
+// Project name: fpga_design; location: /home/mihir/Prism/hardware/fpga_design; part: xc7z020clg400-3
+dismissDialog("Open Project"); // bh (Open Project Progress)
+// [GUI Memory]: 143 MB (+27772kb) [00:00:16]
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,650 MB. GUI used memory: 71 MB. Current time: 2/25/25, 1:11:53 AM IST
+// Elapsed time: 1959 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+// Elapsed time: 178 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// WARNING: HEventQueue.dispatchEvent() is taking  20060 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20065 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20127 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20059 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20194 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20102 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20116 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20083 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20116 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20084 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20118 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,652 MB. GUI used memory: 72 MB. Current time: 2/25/25, 1:42:11 AM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  20130 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20113 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20062 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20120 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20175 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20064 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20129 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20114 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20121 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20057 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20126 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20070 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20116 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20127 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20070 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20121 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20116 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20174 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20069 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20124 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20127 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20179 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20063 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20129 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20060 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20115 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20071 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20122 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20069 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20119 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20066 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20127 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20070 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20136 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20062 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20120 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20146 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20157 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20114 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20146 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20067 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20126 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20071 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20128 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20124 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20172 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20063 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20138 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20068 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20117 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20066 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20115 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20066 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20149 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20077 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20137 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20094 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20130 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20066 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20177 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  20072 ms.

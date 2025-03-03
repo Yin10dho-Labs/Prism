@@ -1,0 +1,404 @@
+
+*** Running vivado
+    with args -log thread.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source thread.tcl
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Sat Mar  1 12:27:18 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source thread.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental /home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/utils_1/imports/synth_1/thread.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/utils_1/imports/synth_1/thread.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top thread -part xc7z020clg484-3 -flatten_hierarchy none -incremental_mode aggressive
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-3
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 15246
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1943.656 ; gain = 422.797 ; free physical = 5006 ; free virtual = 26728
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'carry_out', assumed default net type 'wire' [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/alu.v:24]
+INFO: [Synth 8-6157] synthesizing module 'thread' [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/thread.v:3]
+INFO: [Synth 8-6157] synthesizing module 'instructionDecode' [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/instructionDecode.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'instructionDecode' (0#1) [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/instructionDecode.v:3]
+INFO: [Synth 8-6157] synthesizing module 'registerFile' [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/registerFIle.v:1]
+	Parameter THREAD_ID bound to: 7'b0000000 
+INFO: [Synth 8-6155] done synthesizing module 'registerFile' (0#1) [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/registerFIle.v:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/alu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'barrelShifter' [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/barrelShifter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'barrelShifter' (0#1) [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/barrelShifter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/alu.v:3]
+INFO: [Synth 8-6157] synthesizing module 'flags' [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/flags.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'flags' (0#1) [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/flags.v:4]
+INFO: [Synth 8-6157] synthesizing module 'pc' [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/pc.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (0#1) [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/pc.v:3]
+INFO: [Synth 8-6157] synthesizing module 'opSel' [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/opSel.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'opSel' (0#1) [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/opSel.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'thread' (0#1) [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/thread.v:3]
+WARNING: [Synth 8-7129] Port rst in module flags is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2105.625 ; gain = 584.766 ; free physical = 4847 ; free virtual = 26570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2105.625 ; gain = 584.766 ; free physical = 4800 ; free virtual = 26523
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2105.625 ; gain = 584.766 ; free physical = 4800 ; free virtual = 26523
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2105.625 ; gain = 0.000 ; free physical = 4823 ; free virtual = 26546
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-508] No pins matched 'GND/G'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'VCC/P'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[0]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[0]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[10]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[10]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[1]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[1]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[2]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[2]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[3]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[3]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[4]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[4]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[5]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[5]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[6]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[6]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[7]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[7]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[8]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[8]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[9]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'bram_read_addr_OBUF[9]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'chunkID_IBUF[0]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'chunkID_IBUF[0]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'chunkID_IBUF[1]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'chunkID_IBUF[1]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'clk_IBUF_BUFG_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'clk_IBUF_BUFG_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'clk_IBUF_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'clk_IBUF_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[0]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[0]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[10]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[10]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[11]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[11]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[12]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[12]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[13]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[13]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[14]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[14]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[15]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[15]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[1]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[1]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[2]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[2]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[3]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[3]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[4]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[4]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[5]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[5]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[6]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[6]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[7]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[7]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[8]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[8]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[9]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_in_IBUF[9]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[0]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[0]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[10]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[10]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[11]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[11]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[12]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[12]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[13]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[13]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[14]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[14]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[15]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[15]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[1]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[1]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[2]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[2]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[3]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[3]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[4]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[4]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[5]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[5]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[6]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[6]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[7]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[7]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[8]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[8]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[9]_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_data_OBUF[9]_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_en_OBUF_inst/O'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'fbram_wr_en_OBUF_inst/I'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'ins_pipeline_reg[0]/CE'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+WARNING: [Vivado 12-508] No pins matched 'ins_pipeline_reg[0]/R'. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+INFO: [Common 17-14] Message 'Vivado 12-508' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc:1]
+Finished Parsing XDC File [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/thread_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/thread_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/mihir/Prism/hardware/fpga_design/fpga_design.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/mihir/Prism/hardware/fpga_design/fpga_design.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2222.469 ; gain = 0.000 ; free physical = 4874 ; free virtual = 26597
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2222.469 ; gain = 0.000 ; free physical = 4874 ; free virtual = 26597
+INFO: [Designutils 20-5008] Incremental synthesis strategy aggressive
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2222.469 ; gain = 701.609 ; free physical = 4967 ; free virtual = 26691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2230.473 ; gain = 709.613 ; free physical = 4967 ; free virtual = 26691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 2230.473 ; gain = 709.613 ; free physical = 4968 ; free virtual = 26691
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'temp_reg' [/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/new/alu.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2230.473 ; gain = 709.613 ; free physical = 4964 ; free virtual = 26688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   3 Input   32 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 15    
+	               18 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 6     
+	   5 Input   32 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 15    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP mul_reg_reg, operation Mode is: (A2*B2)'.
+DSP Report: register mul_op2_reg is absorbed into DSP mul_reg_reg.
+DSP Report: register mul_op1_reg is absorbed into DSP mul_reg_reg.
+DSP Report: register mul_reg_reg is absorbed into DSP mul_reg_reg.
+DSP Report: operator mul_reg0 is absorbed into DSP mul_reg_reg.
+WARNING: [Synth 8-7129] Port rst in module flags is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (temp_reg[31]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[30]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[29]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[28]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[27]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[26]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[25]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[24]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[23]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[22]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[21]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[20]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[19]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[18]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[17]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[16]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[15]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[14]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[13]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[12]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[11]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[10]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[9]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[8]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[7]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[6]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[5]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[4]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[3]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[2]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[1]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (temp_reg[0]) is unused and will be removed from module alu.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2230.473 ; gain = 709.613 ; free physical = 5008 ; free virtual = 26737
+---------------------------------------------------------------------------------
+ Sort Area is  mul_reg_reg_0 : 0 0 : 2010 2010 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|alu         | (A2*B2)'    | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 1    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+info: SDC command 'set_clock_uncertainty <pin>' ignored 5897 time(s)
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 2263.473 ; gain = 742.613 ; free physical = 4825 ; free virtual = 26554
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 2345.520 ; gain = 824.660 ; free physical = 4866 ; free virtual = 26596
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 2345.520 ; gain = 824.660 ; free physical = 4865 ; free virtual = 26595
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 2455.301 ; gain = 934.441 ; free physical = 4842 ; free virtual = 26576
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 2455.301 ; gain = 934.441 ; free physical = 4842 ; free virtual = 26576
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 2455.301 ; gain = 934.441 ; free physical = 4842 ; free virtual = 26576
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|alu         | (A'*B')'    | 16     | 16     | -      | -      | 32     | 1    | 1    | -    | -    | -     | 0    | 1    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |    16|
+|3     |DSP48E1 |     1|
+|4     |LUT1    |     1|
+|5     |LUT2    |    66|
+|6     |LUT3    |    18|
+|7     |LUT4    |   104|
+|8     |LUT5    |    19|
+|9     |LUT6    |   334|
+|10    |MUXF7   |   128|
+|11    |MUXF8   |    64|
+|12    |FDCE    |   462|
+|13    |FDRE    |    38|
+|14    |IBUF    |    54|
+|15    |OBUF    |    39|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 2455.301 ; gain = 934.441 ; free physical = 4842 ; free virtual = 26576
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 35 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 2455.301 ; gain = 817.598 ; free physical = 4842 ; free virtual = 26576
+Synthesis Optimization Complete : Time (s): cpu = 00:00:51 ; elapsed = 00:00:52 . Memory (MB): peak = 2455.309 ; gain = 934.441 ; free physical = 4842 ; free virtual = 26576
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2455.309 ; gain = 0.000 ; free physical = 5009 ; free virtual = 26743
+INFO: [Netlist 29-17] Analyzing 209 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2511.328 ; gain = 0.000 ; free physical = 5029 ; free virtual = 26758
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: b7fadf3a
+INFO: [Common 17-83] Releasing license: Synthesis
+40 Infos, 136 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:00:58 . Memory (MB): peak = 2511.328 ; gain = 1142.074 ; free physical = 5029 ; free virtual = 26758
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1831.781; main = 1672.685; forked = 269.166
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3303.246; main = 2511.332; forked = 915.723
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2535.340 ; gain = 0.000 ; free physical = 5029 ; free virtual = 26758
+INFO: [Common 17-1381] The checkpoint '/home/mihir/Prism/hardware/fpga_design/fpga_design.runs/synth_1/thread.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file thread_utilization_synth.rpt -pb thread_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Mar  1 12:28:21 2025...

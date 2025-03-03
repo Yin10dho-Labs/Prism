@@ -1,0 +1,190 @@
+$date
+	Thu Feb 27 21:07:53 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module registerFileTest $end
+$var wire 32 ! rdata2 [31:0] $end
+$var wire 32 " rdata1 [31:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ halt $end
+$var reg 4 % raddr1 [3:0] $end
+$var reg 4 & raddr2 [3:0] $end
+$var reg 1 ' rst $end
+$var reg 4 ( waddr [3:0] $end
+$var reg 32 ) wdata [31:0] $end
+$var reg 1 * wr_en $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 1 $ halt $end
+$var wire 4 + raddr1 [3:0] $end
+$var wire 4 , raddr2 [3:0] $end
+$var wire 1 ' rst $end
+$var wire 4 - waddr [3:0] $end
+$var wire 32 . wdata [31:0] $end
+$var wire 1 * wr_en $end
+$var wire 32 / rdata2 [31:0] $end
+$var wire 32 0 rdata1 [31:0] $end
+$scope begin regFileMainBlk $end
+$scope begin rstRegFile $end
+$var integer 32 1 i [31:0] $end
+$scope begin rstRegFileLoop $end
+$upscope $end
+$upscope $end
+$scope begin writeRegFile $end
+$upscope $end
+$scope begin writeRegFileMeta $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10000 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+0*
+b0 )
+b0 (
+1'
+b0 &
+b0 %
+0$
+0#
+b0 "
+b0 !
+$end
+#5000
+b10000 1
+1#
+#10000
+0#
+b11011110101011011011111011101111 )
+b11011110101011011011111011101111 .
+b1 (
+b1 -
+1*
+0'
+#15000
+1#
+#20000
+0#
+b10010001101000101011001111000 )
+b10010001101000101011001111000 .
+b10 (
+b10 -
+#25000
+1#
+#30000
+b10010001101000101011001111000 !
+b10010001101000101011001111000 /
+b11011110101011011011111011101111 "
+b11011110101011011011111011101111 0
+0#
+b10 &
+b10 ,
+b1 %
+b1 +
+0*
+#35000
+1#
+#40000
+0#
+1$
+#45000
+1#
+#50000
+b10101010000000000000000000000001 "
+b10101010000000000000000000000001 0
+0#
+b1110 %
+b1110 +
+#55000
+1#
+#60000
+b0 "
+b0 0
+b0 !
+b0 /
+b10000 1
+0#
+1'
+#65000
+b0 "
+b0 0
+b10000 1
+1#
+#70000
+0#
+b1 %
+b1 +
+0'
+#75000
+1#
+#80000
+0#
+b11111111111111111111111111111111 )
+b11111111111111111111111111111111 .
+b1111 (
+b1111 -
+1*
+#85000
+1#
+#90000
+0#
+b1111 %
+b1111 +
+0*
+#95000
+1#
+#100000
+0#
+b10101010101010100101010101010101 )
+b10101010101010100101010101010101 .
+b11 (
+b11 -
+1*
+#105000
+1#
+b1010101010101011010101010101010 )
+b1010101010101011010101010101010 .
+#110000
+b1010101010101011010101010101010 "
+b1010101010101011010101010101010 0
+0#
+b11 %
+b11 +
+0*
+#115000
+1#
+#120000
+0#
+#125000
+1#
+#130000
+0#
+#135000
+1#
+b11001010111111101011101010111110 )
+b11001010111111101011101010111110 .
+b100 (
+b100 -
+1*
+#140000
+b11001010111111101011101010111110 "
+b11001010111111101011101010111110 0
+0#
+b100 %
+b100 +
+0*
+#145000
+1#

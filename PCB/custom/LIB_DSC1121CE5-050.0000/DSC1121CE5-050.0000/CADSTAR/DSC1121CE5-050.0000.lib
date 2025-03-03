@@ -1,0 +1,16 @@
+.DSC1121CE5-050.0000 :1 ;Standard Clock Oscillators 3225 pkg -20-70C 10ppm 050.0000MHz
+DSC1121CE50500000
+*STM Y
+*NGS
+*PLB 1="EN" 2="NC_1" 3="GND" 4="OUT" 5="NC_2" 6="VDD"
+*MXP 6
+*DFN DSC1121CE5-050.0000
+~!Mouser Part Number (998-1121CE5-050.0000)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=998-1121CE5-050.0000)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (DSC1121CE5-050.0000)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/DSC1121CE5-050.0000.pdf)
+~!Height (0.9mm)
+~!3D_Model (DSC1121CE5-050.0000)
+DSC1121CE5-050.0000
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

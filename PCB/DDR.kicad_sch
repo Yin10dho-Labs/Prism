@@ -5271,7 +5271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a5e3b18-8292-4db5-b719-730137806c95")
-		(property "Reference" "R42"
+		(property "Reference" "R504"
 			(at 119.38 147.32 90)
 			(effects
 				(font
@@ -5287,7 +5287,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.38 151.765 0)
 			(effects
 				(font
@@ -5323,7 +5323,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "R42")
+					(reference "R504")
 					(unit 1)
 				)
 			)
@@ -5339,7 +5339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18dc7125-2166-40ca-8113-471a602ca04b")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0513"
 			(at 175.26 113.665 0)
 			(effects
 				(font
@@ -5389,7 +5389,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR073")
+					(reference "#PWR0513")
 					(unit 1)
 				)
 			)
@@ -5404,7 +5404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f846cf7-f30a-429f-8007-ba4547b74285")
-		(property "Reference" "C28"
+		(property "Reference" "C501"
 			(at 53.34 158.1212 0)
 			(effects
 				(font
@@ -5423,7 +5423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 50.165 158.115 0)
 			(effects
 				(font
@@ -5459,7 +5459,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C28")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -5475,7 +5475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "214a9bab-7184-4db4-a59d-a37470f0931f")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR0505"
 			(at 104.14 154.94 0)
 			(effects
 				(font
@@ -5525,7 +5525,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR065")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -5541,7 +5541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "253d8524-e11c-46f0-b82a-f47857e2b9b9")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0502"
 			(at 50.165 167.005 0)
 			(effects
 				(font
@@ -5591,7 +5591,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR064")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -5607,7 +5607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d2f0b6f-0cc0-495b-8636-27ab0df5099c")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR0501"
 			(at 37.465 167.005 0)
 			(effects
 				(font
@@ -5657,7 +5657,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR063")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -5672,7 +5672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38a67ba4-a93f-4469-b7dd-6181f7bcf6bc")
-		(property "Reference" "C56"
+		(property "Reference" "C507"
 			(at 173.355 104.7812 0)
 			(effects
 				(font
@@ -5691,7 +5691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 170.18 104.775 0)
 			(effects
 				(font
@@ -5727,7 +5727,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C56")
+					(reference "C507")
 					(unit 1)
 				)
 			)
@@ -5742,7 +5742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41125235-a326-4fb8-9b1c-b3d84cdc1a0a")
-		(property "Reference" "C68"
+		(property "Reference" "C508"
 			(at 177.8 80.6512 0)
 			(effects
 				(font
@@ -5761,7 +5761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 174.625 80.645 0)
 			(effects
 				(font
@@ -5797,7 +5797,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C68")
+					(reference "C508")
 					(unit 1)
 				)
 			)
@@ -5812,7 +5812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53d0e63b-a08f-45bc-b7ce-3fcedd9cd362")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0514"
 			(at 192.405 81.915 0)
 			(effects
 				(font
@@ -5862,7 +5862,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR077")
+					(reference "#PWR0514")
 					(unit 1)
 				)
 			)
@@ -5877,7 +5877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a61a96d-93b1-4653-b426-88d4b5443dbe")
-		(property "Reference" "C53"
+		(property "Reference" "C502"
 			(at 107.315 146.0562 0)
 			(effects
 				(font
@@ -5896,7 +5896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 104.14 146.05 0)
 			(effects
 				(font
@@ -5932,7 +5932,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C53")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -5947,7 +5947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b2565e2-31aa-4074-8398-55280f5493bf")
-		(property "Reference" "C66"
+		(property "Reference" "C504"
 			(at 168.91 80.6512 0)
 			(effects
 				(font
@@ -5966,7 +5966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 165.735 80.645 0)
 			(effects
 				(font
@@ -6002,7 +6002,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C66")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -6017,7 +6017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63033ff7-4608-4077-bf99-c6080b0ff01f")
-		(property "Reference" "C63"
+		(property "Reference" "C512"
 			(at 186.69 80.6512 0)
 			(effects
 				(font
@@ -6036,7 +6036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 183.515 80.645 0)
 			(effects
 				(font
@@ -6072,7 +6072,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C63")
+					(reference "C512")
 					(unit 1)
 				)
 			)
@@ -6088,7 +6088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ec6d559-e333-41b0-8b6a-797dd39af138")
-		(property "Reference" "R40"
+		(property "Reference" "R501"
 			(at 40.005 157.4799 0)
 			(effects
 				(font
@@ -6106,7 +6106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 37.465 158.115 0)
 			(effects
 				(font
@@ -6142,7 +6142,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "R40")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -6157,7 +6157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6edafa2d-608c-43e5-a8a2-4b9c663f6bf1")
-		(property "Reference" "C61"
+		(property "Reference" "C517"
 			(at 194.9512 99.06 0)
 			(effects
 				(font
@@ -6176,7 +6176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 194.945 102.235 0)
 			(effects
 				(font
@@ -6212,7 +6212,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C61")
+					(reference "C517")
 					(unit 1)
 				)
 			)
@@ -6228,7 +6228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72b2dea9-25c6-4371-9b73-90cac934f342")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR0511"
 			(at 174.625 89.535 0)
 			(effects
 				(font
@@ -6278,7 +6278,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR076")
+					(reference "#PWR0511")
 					(unit 1)
 				)
 			)
@@ -6293,7 +6293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81e7ac23-d66b-4cb0-8661-67a1574e1599")
-		(property "Reference" "C60"
+		(property "Reference" "C515"
 			(at 191.77 104.7812 0)
 			(effects
 				(font
@@ -6312,7 +6312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 188.595 104.775 0)
 			(effects
 				(font
@@ -6348,7 +6348,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C60")
+					(reference "C515")
 					(unit 1)
 				)
 			)
@@ -6363,7 +6363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cd70714-a817-445a-aaf6-74e0b7cfe2f0")
-		(property "Reference" "C62"
+		(property "Reference" "C510"
 			(at 182.245 80.6512 0)
 			(effects
 				(font
@@ -6382,7 +6382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 179.07 80.645 0)
 			(effects
 				(font
@@ -6418,7 +6418,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C62")
+					(reference "C510")
 					(unit 1)
 				)
 			)
@@ -6433,7 +6433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e6603d1-2c65-454d-939a-23e343d64326")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0504"
 			(at 104.14 147.32 0)
 			(effects
 				(font
@@ -6483,7 +6483,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR067")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -6498,7 +6498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9334fe9b-8b41-420f-944b-04c4afc8efc8")
-		(property "Reference" "C55"
+		(property "Reference" "C505"
 			(at 168.91 104.7812 0)
 			(effects
 				(font
@@ -6517,7 +6517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 165.735 104.775 0)
 			(effects
 				(font
@@ -6553,7 +6553,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C55")
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -6568,7 +6568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bb9c2fe-e3e2-45d1-bb22-1b4f92774b49")
-		(property "Reference" "C64"
+		(property "Reference" "C514"
 			(at 191.135 80.6512 0)
 			(effects
 				(font
@@ -6587,7 +6587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 187.96 80.645 0)
 			(effects
 				(font
@@ -6623,7 +6623,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C64")
+					(reference "C514")
 					(unit 1)
 				)
 			)
@@ -6639,7 +6639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a07d1855-c189-432b-922a-94c7249af5a1")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0508"
 			(at 110.49 151.765 0)
 			(effects
 				(font
@@ -6690,7 +6690,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR069")
+					(reference "#PWR0508")
 					(unit 1)
 				)
 			)
@@ -6706,7 +6706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a461343f-6cb9-47eb-b8c0-b6c219aada30")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0503"
 			(at 93.345 147.955 0)
 			(effects
 				(font
@@ -6756,7 +6756,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR070")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -6771,7 +6771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af9e2007-3a11-4ee1-8665-c58087b05ca1")
-		(property "Reference" "C58"
+		(property "Reference" "C511"
 			(at 182.88 104.7812 0)
 			(effects
 				(font
@@ -6790,7 +6790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 179.705 104.775 0)
 			(effects
 				(font
@@ -6826,7 +6826,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C58")
+					(reference "C511")
 					(unit 1)
 				)
 			)
@@ -6841,7 +6841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afd074c1-7489-43dc-a78e-46a33bc5cc73")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0512"
 			(at 175.26 106.045 0)
 			(effects
 				(font
@@ -6891,7 +6891,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR074")
+					(reference "#PWR0512")
 					(unit 1)
 				)
 			)
@@ -6907,7 +6907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b811219b-5cab-4d36-bd23-59aae553f73b")
-		(property "Reference" "R43"
+		(property "Reference" "R502"
 			(at 95.25 138.4299 0)
 			(effects
 				(font
@@ -6925,7 +6925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 93.345 139.065 0)
 			(effects
 				(font
@@ -6961,7 +6961,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "R43")
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -6977,7 +6977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf68a021-7fc4-43d6-bf83-9d53b29adcc3")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0506"
 			(at 108.585 154.94 0)
 			(effects
 				(font
@@ -7027,7 +7027,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR066")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -7042,7 +7042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cddecbc3-8894-443d-bede-70c1521b2655")
-		(property "Reference" "C65"
+		(property "Reference" "C516"
 			(at 195.58 80.6512 0)
 			(effects
 				(font
@@ -7061,7 +7061,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 192.405 80.645 0)
 			(effects
 				(font
@@ -7097,7 +7097,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C65")
+					(reference "C516")
 					(unit 1)
 				)
 			)
@@ -7113,7 +7113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d51d05cc-9271-4ca2-8974-f57ef33e40f1")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0509"
 			(at 125.095 172.085 0)
 			(effects
 				(font
@@ -7163,7 +7163,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR071")
+					(reference "#PWR0509")
 					(unit 1)
 				)
 			)
@@ -7179,7 +7179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6d8457b-7b17-49e3-98f0-472b937411b3")
-		(property "Reference" "IC1"
+		(property "Reference" "IC501"
 			(at 142.875 29.21 0)
 			(effects
 				(font
@@ -7195,7 +7195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA96C80P9X16_900X1400X120"
+		(property "Footprint" "MT41K512M16HA:BGA96C80P9X16_900X1400X120"
 			(at 178.943 132.207 0)
 			(effects
 				(font
@@ -7565,7 +7565,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "IC1")
+					(reference "IC501")
 					(unit 1)
 				)
 			)
@@ -7581,7 +7581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e30e3b9b-9da8-49d1-90da-6afe94cbec8c")
-		(property "Reference" "R41"
+		(property "Reference" "R503"
 			(at 119.38 144.78 90)
 			(effects
 				(font
@@ -7597,7 +7597,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.38 149.225 0)
 			(effects
 				(font
@@ -7633,7 +7633,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "R41")
+					(reference "R503")
 					(unit 1)
 				)
 			)
@@ -7648,7 +7648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea1c4a33-0e6e-4775-8770-bc2d58af0c84")
-		(property "Reference" "C67"
+		(property "Reference" "C506"
 			(at 173.355 80.6512 0)
 			(effects
 				(font
@@ -7667,7 +7667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 170.18 80.645 0)
 			(effects
 				(font
@@ -7703,7 +7703,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C67")
+					(reference "C506")
 					(unit 1)
 				)
 			)
@@ -7719,7 +7719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f07ad3ad-f54c-4434-a61d-0753b6db5709")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0507"
 			(at 110.49 149.225 0)
 			(effects
 				(font
@@ -7770,7 +7770,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR068")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -7786,7 +7786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f56fb610-9057-45df-9c55-eff62352c818")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR0510"
 			(at 160.655 172.085 0)
 			(effects
 				(font
@@ -7836,7 +7836,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR072")
+					(reference "#PWR0510")
 					(unit 1)
 				)
 			)
@@ -7851,7 +7851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6629b36-8630-402e-9723-df24b6d51da1")
-		(property "Reference" "C59"
+		(property "Reference" "C513"
 			(at 187.325 104.7812 0)
 			(effects
 				(font
@@ -7870,7 +7870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 184.15 104.775 0)
 			(effects
 				(font
@@ -7906,7 +7906,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C59")
+					(reference "C513")
 					(unit 1)
 				)
 			)
@@ -7921,7 +7921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f753dc2a-b704-4473-8f19-54775c062b80")
-		(property "Reference" "C57"
+		(property "Reference" "C509"
 			(at 178.435 104.7812 0)
 			(effects
 				(font
@@ -7940,7 +7940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 175.26 104.775 0)
 			(effects
 				(font
@@ -7976,7 +7976,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C57")
+					(reference "C509")
 					(unit 1)
 				)
 			)
@@ -7991,7 +7991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb4b14fa-b9d4-47ec-bf68-5565bbfe0135")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR0515"
 			(at 203.2 106.045 0)
 			(effects
 				(font
@@ -8041,7 +8041,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "#PWR075")
+					(reference "#PWR0515")
 					(unit 1)
 				)
 			)
@@ -8056,7 +8056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc2653b2-7072-4213-8517-89229254cdf9")
-		(property "Reference" "C54"
+		(property "Reference" "C503"
 			(at 111.76 146.0562 0)
 			(effects
 				(font
@@ -8075,7 +8075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 108.585 146.05 0)
 			(effects
 				(font
@@ -8111,7 +8111,7 @@
 		(instances
 			(project "gameboy"
 				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0/fd3950dc-fcdc-4c6c-b6ed-362340a95212"
-					(reference "C54")
+					(reference "C503")
 					(unit 1)
 				)
 			)

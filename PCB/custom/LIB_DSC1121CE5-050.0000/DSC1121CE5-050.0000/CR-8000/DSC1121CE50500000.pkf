@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "DSC1121CE50500000"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "DSC1121CE50500000")
+        (spec "default")
+    )
+)

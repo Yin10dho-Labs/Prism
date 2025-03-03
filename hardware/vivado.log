@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Feb 27 19:08:07 2025
+# Process ID         : 3074
+# Current directory  : /home/mihir/Prism/hardware
+# Command line       : vivado
+# Log file           : /home/mihir/Prism/hardware/vivado.log
+# Journal file       : /home/mihir/Prism/hardware/vivado.jou
+# Running On         : engineering-laptop
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+# CPU Frequency      : 3201.701 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16486 MB
+# Swap memory        : 18135 MB
+# Total Virtual      : 34621 MB
+# Available Virtual  : 33228 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/mihir/Prism/hardware/fpga_design/fpga_design.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /home/mihir/xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /home/mihir/xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /home/mihir/xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+CRITICAL WARNING: [Project 1-19] Could not find the file '/home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/mihir/xilinx/Vivado/2024.2/data/ip'.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'blk_mem_gen_0'.
+CRITICAL WARNING: [IP_Flow 19-3933] Unable to construct an IP Instance blk_mem_gen_0 using VLNV :::.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 7724.984 ; gain = 255.375 ; free physical = 10979 ; free virtual = 30840
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Attempt to kill process failed
+
+launch_runs synth_1 -jobs 8
+[Thu Feb 27 19:11:27 2025] Launched synth_1...
+Run output will be captured here: /home/mihir/Prism/hardware/fpga_design/fpga_design.runs/synth_1/runme.log
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/utils_1/imports/synth_1/thread.dcp with file /home/mihir/Prism/hardware/fpga_design/fpga_design.runs/synth_1/registerFile.dcp
+launch_runs synth_1 -jobs 8
+[Thu Feb 27 20:47:41 2025] Launched synth_1...
+Run output will be captured here: /home/mihir/Prism/hardware/fpga_design/fpga_design.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Thu Feb 27 20:49:57 2025] Launched synth_1...
+Run output will be captured here: /home/mihir/Prism/hardware/fpga_design/fpga_design.runs/synth_1/runme.log
+file mkdir /home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sim_1/new/registerFileTest.v w ]
+add_files -fileset sim_1 /home/mihir/Prism/hardware/fpga_design/fpga_design.srcs/sim_1/new/registerFileTest.v
+update_compile_order -fileset sim_1

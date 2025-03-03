@@ -1,0 +1,4 @@
+xpm_memory.sv,systemverilog,xpm,../../../../../../xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,
+blk_mem_gen_v8_4.v,verilog,blk_mem_gen_v8_4_9,../../../ipstatic/simulation/blk_mem_gen_v8_4.v,
+shiftBRAM.v,verilog,xil_defaultlib,../../../../shiftBRAM/sim/shiftBRAM.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -163,6 +163,44 @@
 		)
 	)
 	(sheet
+		(at 111.76 78.105)
+		(size 27.94 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a84ec7d4-6741-415a-8319-4dd33acfde3c")
+		(property "Sheetname" "Peripherals"
+			(at 111.76 77.3934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 111.76 96.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gameboy"
+				(path "/bfbf29d7-ad29-43e7-b23f-5805508cd3f0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 173.99 132.08)
 		(size 26.035 19.685)
 		(fields_autoplaced yes)

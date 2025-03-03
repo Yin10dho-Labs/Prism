@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DSC1121CE5-050_0000"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-01-29-12:51:31)
+    (mountForm default
+        (footprintRef "DSC1121CE50500000")
+        (spec "System")
+    )
+)
